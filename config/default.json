@@ -1,4 +1,5 @@
 {
   "port": 5000,
+  "jwtSecret": "vladilen youtube mern",
   "mongoUri": "mongodb+srv://smouzh:240486qw@cluster0.1mjhq.mongodb.net/app?retryWrites=true&w=majority"
 }
