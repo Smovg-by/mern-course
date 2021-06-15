@@ -5,11 +5,13 @@ import { AuthPage } from './pages/AuthPage'
 
 export const useRoutes = isAuthenticated => {
   if (isAuthenticated) {
+    // console.log('LinksPage')
     return (
       <Switch>
         <Route path='/links'>
           <LinksPage />
         </Route>
+        <Redirect to='/links' />
       </Switch>
     )
   }
